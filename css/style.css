@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(to right,rgba(192,220,232,255),rgba(202,156,192,255),rgba(252,143,162,255));
+}
+
+/* main{
+    width: 60%;
+    min-height: max-content;
+    max-height:80%;
+    background-color: rgba(237,239,241,255);
+} */
+
+main{
+    background-color: rgba(237,239,241,255);
+    width: 80%;
+    height: 100vh;
+    margin: 10% auto;
+    border-top-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    padding:1.4em 1.5em;
+}
+
+.image{
+    width:inherit;
+    height:inherit;
+    margin-left: 1.2em;
+}
+
+.first-section{
+    margin-top: 20px;
+
+}
+
+section.first-section{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.hi,.about-me{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+
+}
+
+.short-note,.about-me-content{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1em;
+
+}
+
+.skills{
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+}
+
+.skills td{
+    padding: 1.4em;
+    border: 1px solid rgb(0,0,0);
+}
+
+.skills tr{
+    margin-bottom: 2.2em;
+}
