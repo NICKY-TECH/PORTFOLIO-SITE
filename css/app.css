@@ -51,12 +51,12 @@ main{
     width:80%;
     margin: 10% auto;
     grid-template-areas: "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
     "image image image image image image image image image image image image"
     "image image image image image image image image image image image image"
     "image image image image image image image image image image image image"
     "image image image image image image image image image image image image"
     "image image image image image image image image image image image image"
-    "intro intro intro intro intro intro intro intro intro intro intro intro"
     "intro intro intro intro intro intro intro intro intro intro intro intro"
     "intro intro intro intro intro intro intro intro intro intro intro intro"
     "intro intro intro intro intro intro intro intro intro intro intro intro"
@@ -123,11 +123,17 @@ nav{
     
     .first-section{
         flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .second{
         flex-direction: column;
+        justify-content: space-evenly;
     
+    }
+
+    .images img{
+        margin: auto;
     }
     
     .name{
@@ -144,9 +150,5 @@ nav{
     }
     .view-work-list{
         margin-top: 1.2em;
-    }
-
-    .images img{
-        margin: auto;
     }
 }
